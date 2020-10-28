@@ -57,6 +57,31 @@ function Time_function()    {
     }
     document.getElementById("Time_of_day").innerHTML= Reply;
 }
+function Month_function()   { 
+    var date= new Date;
+document.getElementById("Month").innerHTML= (date.getMonth()+1);
+}
+
+function Season_function()  {
+    var date= new Date; 
+    var month= date.getMonth()+1;
+    var Reply;
+    if (month >=3 == month <= 5) {
+        Reply="The season is spring!";
+    }
+    else if (month >=9 == month <= 11) {
+        Reply="The season is Fall!";
+    }
+    else if (month >= 6 == month <=8) {
+        Reply="The season is Summer!";
+    }
+    else {
+        Reply="The season is Winter!;"
+    }
+    document.getElementById("Season").innerHTML=Reply;
+
+
+}
 
 
 //Note for later--try using else if statement for seasons of the year 
