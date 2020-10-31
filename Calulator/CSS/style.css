@@ -18,6 +18,7 @@ html    {
     transform: translate(-50%, -50%);
     width: 500px;
     padding-bottom: 20px;
+    background-color: floralwhite;
     
 }
 
@@ -38,7 +39,7 @@ button  {
     height: 70px;
     border-radius: 3px;
     border: 1px solid darkslategray;
-    background-color: transparent;
+    background-color: rgb(207, 207, 207);
     font-size: 3.2rem;
     color: black;
     background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .06));
@@ -55,7 +56,6 @@ button:hover    {
     color: black;
     background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .5));
     background-color: lightgray;
-    padding-top: 10px;
 }
 
 .all-clear  {
@@ -86,4 +86,15 @@ button:hover    {
     row-gap: 20px;
     column-gap: 20px;
     padding-left: 20px;
+}
+
+body {
+    background-color: rgb(14, 95, 54);
+}
+
+h1 {
+    text-align: center;
+    color: honeydew;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
